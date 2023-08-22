@@ -1,0 +1,122 @@
+body{
+    position: relative;
+    height: 100%;
+    display: block;
+    width: 100%;
+}
+.watermark{
+    display: inline;
+    z-index: 1;
+    opacity: 0.1;
+    position: absolute;
+    margin-top: 60%;
+    text-align: center;
+    vertical-align: middle;
+    justify-content: center;
+    width: 130%;
+    margin-left: -150px;
+}
+.watermark img{
+    width: 110%;
+    height: 110%;
+    transform: rotate(-53deg);
+    margin-bottom: -15%;
+    margin-left: -5%;
+}
+@page {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+body {
+    padding-top: 72px;
+    padding-bottom: 72px ;
+}
+.menu, .finder, .templates, .priceOffer, .label, .newItem, .disabled{
+    display: none;
+}
+.plate_number{
+    color: black;
+    position: relative;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: -90px;
+    margin-bottom: 50px;
+}
+img.revicarLogo{
+    width: 250px;
+    height: 54px;
+    vertical-align: middle;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+.page_code{
+    color: black;
+    position: relative;
+    display: block;
+    float: right;
+    margin-right: 23px;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: -75px;
+    letter-spacing: 1px;
+}
+a {
+    text-decoration: none;
+}
+table.selectedTable, table.sumTable{
+    color: black; 
+    margin: 0.5em;
+    font-family: 'Comfortaa', cursive;
+    box-shadow: 0px 0px 0px black;
+    border: 1px solid #364043;
+    margin-left: -5px;
+}
+table.selectedTable th, table.sumTable th{
+    border-bottom: 2px solid #364043;
+    font-size: 19px;
+    font-weight: 600;
+    padding: 0.2em 0.5em;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+}
+table.selectedTable th.p_red, table.sumTable th.p_red{
+    color:#e12c27;
+}
+table.selectedTable th.p_blue, table.sumTable th.p_blue{
+    color: #00148F;
+}
+td {
+    font-family: 'Comfortaa', cursive;
+    color: black;
+    padding: 0.3em 0.5em;
+}
+tr{
+    border: 1px solid #364043;
+}
+.print_label2{
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    font-size: 25px;
+    font-weight: 600;
+    display: block;
+    color: black;
+    margin-top: 20px;
+}
+.date{
+    font-family: 'Comfortaa', cursive;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-top: -30px;
+    color: black;
+    display: block;
+    
+}
