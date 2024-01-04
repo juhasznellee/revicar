@@ -28,6 +28,8 @@
             <li><h2><a href = "../price_offer/price_offer.php">Árajánlat</a></h2></li>
             <li class='horizontalLine'>|</li>
             <li><h2><a href = "../job/job.php">Munkák</a></h2></li>
+            <li class='horizontalLine'>|</li>
+            <li><h2><a href = "../calendar/calendar.php">Naptár</a></h2></li>
         </ul>
     </div>
     <div class="dropdown">

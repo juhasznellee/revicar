@@ -21,7 +21,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../base.css">
     <link rel="stylesheet" media="print" href="../print.css" />
-    <title>Árajánló</title>
+    <title>Árajánlat</title>
 </head>
 <body>
     <div class="watermark">
@@ -41,6 +41,8 @@
             <li><h2><a href = "../template/template.php">Sablonok</a></h2></li>
             <li class='horizontalLine'>|</li>
             <li><h2><a href = "../job/job.php">Munkák</a></h2></li>
+            <li class='horizontalLine'>|</li>
+            <li><h2><a href = "../calendar/calendar.php">Naptár</a></h2></li>
         </ul>
     </div>
     

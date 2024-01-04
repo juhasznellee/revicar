@@ -8,6 +8,20 @@ body{
     font-size: 20px;
     min-height: 100%;
 }
+.column_1{
+    float: left;
+    width: 30%;
+}
+.column_2{
+    float: left;
+    width: 50%;
+    background-color: green;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
 /* --------------- Címsor --------------- */
 h2 a:link, h2 a:visited, h2 a:active{
     text-decoration: none;
@@ -32,8 +46,20 @@ h3{
     font-weight: 700;
     font-size: 25px;
 }
+.middle1{
+    margin-left: 38%;
+}
+.middle2{
+    margin-left: 28%;
+}
+.calendarTitle{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
 /* --------------- Táblázat --------------- */
-table.priceOffer, table.templateCreater, table.sumTable{
+table.priceOffer, table.templateCreater, table.sumTable, table.calendar{
     color: black; 
     border-collapse: collapse;
     margin: 1em;
@@ -42,7 +68,7 @@ table.priceOffer, table.templateCreater, table.sumTable{
     margin-right: auto;
     font-family: 'Comfortaa', cursive;
 }
-table.priceOffer th, table.templateCreater th{
+table.priceOffer th, table.templateCreater th, table.calendar th{
     color: white;
     font-family: 'Comfortaa', cursive;
 }
@@ -165,6 +191,30 @@ input:focus{
     font-family: 'Comfortaa', cursive;
     vertical-align: middle;
     margin-top: -95px;
+}
+.txtDate{
+    border: 0;
+    border-bottom: 2px solid #e12c27;
+    outline: none;
+    width: 150px;
+    max-width: 400px;
+    color: white;
+    font-size: 20px;
+    transition: padding 0.3s 0.2s ease;
+    font-family: 'Comfortaa', cursive;
+    background: 0;
+}
+.txtTime{
+    background: 0;
+    border: 0;
+    border-bottom: 2px solid #e12c27;
+    outline: none;
+    width: 90px;
+    max-width: 400px;
+    color: white;
+    font-size: 20px;
+    transition: padding 0.3s 0.2s ease;
+    font-family: 'Comfortaa', cursive;
 }
 /* --------------- Menu --------------- */
 img.revicarLogo{
